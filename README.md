@@ -1,6 +1,6 @@
 # Word-Guess
-##Command line word guess game.
-- This JavaScript Node application uses constructors and linked files to take a user input (guess) and compare it to a randomly selected word. 
+## Command line word guess game.
+- This JavaScript Node application uses constructors and dependent files to take a user input (guess) and compare it to a randomly selected word. 
 - The letter.js file contains the letter constructor which checks the letter is entered and either displays the correctly guessed letter or displays the placeholder underscore.
 - The word.js file contains the word constructor which is dependent on the letter.js file to grab the letters, create the word, and display it.
 - The game logic is contained in the index.js file. This file is dependent on the word.js file, as well as the colors npm module, and inquirer. 
@@ -18,7 +18,10 @@ node index.js
 - If the user runs out of guesses, a message will appear letting them know the correct word and the game will start again. 
 - If the user guesses correctly, a message will appear letting them know they guessed the word. 
 
-## Technologies used
+![word-guess-gif](https://user-images.githubusercontent.com/47259793/57326903-8602f400-70db-11e9-8f66-9127dc2f3e6c.gif)
+
+
+## Technologies/Programs used
 
 - JavaScript
 - node.js
